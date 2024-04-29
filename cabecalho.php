@@ -10,6 +10,6 @@
   <?php
         require_once "nav.html";
         require_once "funcoes.php";
-        exibirData();
+
         ?>
         <main class="container">

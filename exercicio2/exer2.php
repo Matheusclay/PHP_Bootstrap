@@ -1,5 +1,5 @@
 <?php
-    require_once "../cabecalho.php";
+    require_once "../nav/cabecalho.php";
 ?>
 <form action="" method="post">
         <button type="submit" >Ok</button>
@@ -19,5 +19,5 @@
     </form>
 
 <?php
-    require_once "../rodape.php";
+    require_once "../nav/rodape.php";
 ?>

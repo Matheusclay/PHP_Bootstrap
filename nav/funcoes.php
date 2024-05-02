@@ -29,5 +29,12 @@ function triploOuSoma($v1 , $v2)
 
     } 
 
+    function tabuada($n)
+    {
+        for ($i = 1; $i <= 10; $i++) {
+            $resultado = $n * $i;
+            echo "$n x $i = $resultado <br>";
+        }
+    }
 
 }

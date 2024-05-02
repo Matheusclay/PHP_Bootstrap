@@ -1,7 +1,9 @@
 <?php
     require_once "../nav/cabecalho.php";
 ?>
+
 <form action="" method="post">
+    <h1>Exercício 2</h1>
         <button type="submit" >Ok</button>
         <?php
         for ($i=0; $i < 7; $i++) {

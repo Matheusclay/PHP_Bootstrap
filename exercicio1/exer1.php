@@ -5,6 +5,7 @@
     <form action="exer1resp.php" method="post">
         <div class="row">
             <div class="col">
+                <h1>Exercício 1</h1>
                 <label for="valor" class="form-label">Informe o valor</label>
                 <input type="number" class="form-control" id="valor" name="valor1">
             </div>

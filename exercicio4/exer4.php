@@ -1,11 +1,10 @@
 <?php
 require_once "../nav/cabecalho.php";
 ?>
-<form action="exer4resposta.php" method="post">
+<form action="exer4resp.php" method="post">
     <div class="row">
         <div class="col-md-12">
             <h1>Exercício 4</h1>
-           
             <label>Informe o número</label>
             <input type="number" class="form-control" name="entrada">
             </div>

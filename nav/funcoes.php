@@ -15,26 +15,35 @@ function positivoNegativo($v)
     }
 }
 
-function triploOuSoma($v1 , $v2)
+function triploOuSoma($v1, $v2)
 {
 
     if ($v1 == $v2) {
         $triple = $v1 * 3;
         echo "O resultado é $triple";
-        } 
-    
-    else {
+    } else {
         $soma = $v1 + $v2;
         echo "O resultado é $soma";
 
-    } 
-
-    function tabuada($n)
-    {
-        for ($i = 1; $i <= 10; $i++) {
-            $resultado = $n * $i;
-            echo "$n x $i = $resultado <br>";
-        }
     }
 
+}
+
+function tabuada($n)
+{
+    
+    for ($i = 1; $i <= 10; $i++) {
+        $resultado = $n * $i;
+        
+        echo "$n x $i = $resultado <br>";
+    }
+}
+
+function fatorial($n)
+{
+    $fatorial = 1;
+    for ($i = 1; $i <= $n; $i++) {
+        $fatorial = $fatorial * $i;
+    }
+    return $fatorial;
 }

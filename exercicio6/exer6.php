@@ -1,7 +1,7 @@
 <?php
 require_once "../nav/cabecalho.php";
 ?>
-<form action="exer6resposta.php" method="post">
+<form action="exer6resp.php" method="post">
     <div class="row">
         <div class="col-md-12">
             <h1>Exercício 6</h1>

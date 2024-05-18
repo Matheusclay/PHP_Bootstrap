@@ -6,7 +6,7 @@ require_once "../nav/cabecalho.php";
     <div class="row">
         <div class="col-md-12">
 
-            <label>Mostrar de acordo com sua idade</label><br>
+            <label>Mostrar sua idade, de acordo o seu ano de nascimento</label><br>
             <input type="number" class="form-control" name="valor1">Digite seu ano de nascimento<br>
             
         </div>

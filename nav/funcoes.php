@@ -65,7 +65,7 @@ function OrdemCrescente ($valor1, $valor2) {
 
 function conversaoCentimetros($valor1) {
     $resultado = $valor1 * 100;
-    echo "O valor de $valor1 em centímetros é $resultado";
+    echo "O valor de $valor1 metros em centímetros é $resultado";
 }
 
 function calcIdade($valor1)
